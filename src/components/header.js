@@ -23,17 +23,17 @@ const NavLink = styled(Link)`
 
 const Header = () => (
     <header
-        css={css`
+        css={css`{
             background: #eee;
             border-bottom: 1px solid #ddd;
             display: flex;
             justify-content: space-between;
             padding: 0.5rem calc((100vw - 550px - 0.5rem) / 2);
-        `}
+        }`}
     >
         {/* navigation */}
         <NavLink to="/" fontWeight="bold">Gatsby Intro</NavLink>
-        <nav css={css`margin-top:0;`}>
+        <nav css={css`{margin-top:0;}`}>
             <NavLink to="/" activeClassName="current-page">Home</NavLink>
             <NavLink to="/about" activeClassName="current-page">About</NavLink>
         </nav>

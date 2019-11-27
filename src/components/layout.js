@@ -59,11 +59,11 @@ const Layout = ({ children }) => {
         </Helmet>
         <Header></Header>
         <main
-            css={css`
+            css={css`{
                 margin: 2rem auto 4rem;
                 max-width: 90vw;
                 width: 550px;
-            `}
+            }`}
         >{children}</main>
     </>
     );
